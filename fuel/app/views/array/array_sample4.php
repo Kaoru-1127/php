@@ -15,3 +15,4 @@
 	$rows			=	array_chunk($array_numbers, 3);
 
 	var_dump($rows);
+?>
