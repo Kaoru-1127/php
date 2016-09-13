@@ -27,4 +27,8 @@ class Controller_Array extends Controller{
 		$view = View::forge('array/array_sample5');
 		return Response::forge($view);
 	}
+	public function action_arraysample6(){
+		$view = View::forge('array/array_sample6');
+		return Response::forge($view);
+	}
 }
