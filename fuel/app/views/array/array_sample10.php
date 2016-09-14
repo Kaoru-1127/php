@@ -8,6 +8,7 @@
 			'blue'	=>	"青",
 			'yellow'=>	"黄"
 	);
+	//第一引数に配列の値、第2引数に配列のキーがセットされます。
 	$echoRow	=	function($value,$key)
 	{
 		echo "key={$key},value={$value}<br>";

@@ -2,6 +2,7 @@
 use Fuel\Core\Controller;
 use Fuel\Core\View;
 use Fuel\Core\Response;
+use Fuel\Core\Request;
 
 class Controller_Array extends Controller{
 	public function action_arraysample1(){
@@ -47,4 +48,9 @@ class Controller_Array extends Controller{
 		$view = View::forge('array/array_sample10');
 		return Response::forge($view);
 	}
+	public function action_arraysample11(){
+		$view = View::forge('array/array_sample11');
+		return Response::forge($view);
+	}
+
 }
