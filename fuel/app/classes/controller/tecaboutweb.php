@@ -12,4 +12,8 @@ class Controller_Tecaboutweb extends Controller{
 		$view = View::forge('technique_about_web/technique_about_web_sample2.php');
 		return Response::forge($view);
 	}
+	public function action_taw3(){
+		$view = View::forge('technique_about_web/technique_about_web_sample3.php');
+		return Response::forge($view);
+	}
 }
