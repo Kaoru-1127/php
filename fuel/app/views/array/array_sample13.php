@@ -118,5 +118,6 @@
 	var_dump($reverse);
 
 	//ランダム化(連想配列)
+	//実行するとインデックス配列で再作成されます。
 	shuffle($array_associat);
 	var_dump($array_associat);
